@@ -6,4 +6,12 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="our-olive-tree.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="our-olive-tree.jpg" />
+  </ItemGroup>
+
 </Project>
